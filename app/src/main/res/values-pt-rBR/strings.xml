@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">EmpregaEu4</string>
-    <string name="name">Name</string>
-    <string name="password">Password</string>
+    <string name="name">Nome</string>
+    <string name="password">Senha</string>
     <string name="remember">Remember</string>
     <string name="login">Login</string>
     <string name="textoExemplo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. </string>
-    <string name="msgError">User error</string>
+    <string name="msgError">Usuário incorreto</string>
 </resources>
