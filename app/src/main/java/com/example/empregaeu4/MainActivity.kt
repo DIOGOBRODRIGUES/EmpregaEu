@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
             }
             else{
                 Toast.makeText(this, R.string.msgError, Toast.LENGTH_SHORT).show()
+                btLogin.text = edNome.text.toString()
+
             }
         }
         //setContentView(R.layout.activity_main)
