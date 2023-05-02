@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291618798918",
+    "project_id": "empregaeu4",
+    "storage_bucket": "empregaeu4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291618798918:android:9ba30edd8b97f4204ef947",
+        "android_client_info": {
+          "package_name": "com.example.empregaeu4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291618798918-vrv9u6ml0bji9e0ot14fdot881qoa26d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv9E95RMxcPxnWbHHKNXj07W7i7DFE9cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291618798918-vrv9u6ml0bji9e0ot14fdot881qoa26d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
