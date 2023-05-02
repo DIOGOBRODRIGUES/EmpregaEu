@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">EmpregaEu4</string>
+    <string name="app_name">EmpregaEu</string>
     <string name="name">Nome</string>
     <string name="password">Senha</string>
     <string name="remember">Remember</string>

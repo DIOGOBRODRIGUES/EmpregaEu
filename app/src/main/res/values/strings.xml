@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EmpregaEu4</string>
+    <string name="app_name">EmpregaEu</string>
     <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="remember">Remember</string>
