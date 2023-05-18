@@ -26,13 +26,15 @@ class MainActivity : AppCompatActivity() {
                 startActivity(inten)
                 //testando escrita com banco de dados
                 val database = Firebase.database
-                val myRef = database.getReference("message")
+                val myRef = database.getReference("teste")
 
                 myRef.setValue("Hello, World!")
             }
             else{
-                Toast.makeText(this, R.string.msgError, Toast.LENGTH_SHORT).show()
-                btLogin.text = edNome.text.toString()
+                val inten = Intent(this, ListaVagasActivity::class.java)
+                startActivity(inten)
+              //  Toast.makeText(this, R.string.msgError, Toast.LENGTH_SHORT).show()
+              //  btLogin.text = edNome.text.toString()
 
             }
         }

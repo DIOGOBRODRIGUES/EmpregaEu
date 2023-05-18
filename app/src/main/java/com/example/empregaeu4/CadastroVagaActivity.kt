@@ -17,7 +17,7 @@ class CadastroVagaActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         var edEmpresa = binding.edEmpresa
-        var edCargo = binding.edEmpresa
+        var edCargo = binding.edCargo
         var edSalario = binding.edSalario
         var btCadatrar = binding.button
 
@@ -45,6 +45,11 @@ class CadastroVagaActivity : AppCompatActivity() {
             dbRef.child(empId).setValue(empregador)
                 .addOnCompleteListener{
                     Toast.makeText(this, "Cadastro realizado", Toast.LENGTH_SHORT).show()
+
+                    edEmpresa.text.clear()
+                    edCargo.text.clear()
+                    edSalario.text.clear()
+
                 }.addOnFailureListener{err ->
                     Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_SHORT).show()
                 }
